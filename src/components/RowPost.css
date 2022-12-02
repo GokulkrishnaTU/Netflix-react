@@ -7,7 +7,7 @@
 .posters{
     display: flex;
     padding: 20px;
-    overflow-x: scroll;
+   overflow-x: scroll;
     overflow-y: hidden;
 
 
@@ -21,5 +21,15 @@
     max-height: 250px;
     margin-right: 10px;
 
+}
+
+.smallPoster{
+    max-height: 100px;
+ 
+
+}
+
+.poster:hover{
+    transform: scale(1.09);
 }
 
